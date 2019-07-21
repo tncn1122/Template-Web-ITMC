@@ -27,6 +27,21 @@
 	}
 }
 @media (max-width:1199px){
+	/*Wrap*/
+	.video-wrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+	  }
+	  
+	  .video-wrapper iframe {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	  }
 	/* Main Menu Area css
 	============================================================================================ */
 	.header_area .navbar .nav .nav-item {
@@ -85,6 +100,7 @@
 @media (max-width:991px){
 	/* Main Menu Area css
 	============================================================================================ */
+	
     .navbar-toggler {
         border: none;
         border-radius: 0px;
