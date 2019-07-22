@@ -59,6 +59,13 @@ a {
 .row.m0 {
   margin: 0px; }
 
+.border-bot{
+  border-bottom: 1px solid #eeeeee;
+}
+.star{
+  color: #ffc000;
+}
+
 body {
   line-height: 26px;
   font-size: 16px;
@@ -137,6 +144,10 @@ button:focus {
   left: 0;
   z-index: 99;
   transition: background 0.4s, all 0.3s linear; }
+  .tab { 
+    display:inline-block; 
+    margin-left: 40px; 
+  }
   .header_area .navbar {
     background: transparent;
     padding: 0px;
@@ -2702,6 +2713,7 @@ h6 {
   .profile_inner .personal_text {
     padding-left: 95px; }
 
+
 .personal_text h6 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -2710,6 +2722,11 @@ h6 {
   font-weight: normal;
   margin-bottom: 12px;
   color: #222222; }
+.personal_text h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #222222; }
 .personal_text h4 {
   font-size: 16px;
   font-weight: 500;
