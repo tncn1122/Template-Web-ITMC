@@ -60,7 +60,12 @@ a {
   margin: 0px; }
 
 .border-bot{
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.border-top-pad {
+  padding: 50px 0;
+  border-top: 2px dotted#eee;
 }
 .star{
   color: #ffc000;
