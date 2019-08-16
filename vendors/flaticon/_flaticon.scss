@@ -1,12 +1,13 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 26/06/2018 17:19
+    Creation date: 16/08/2019 15:05
     */
 
     @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -36,10 +37,12 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-skyline:before { content: "\f100"; }
-.flaticon-sketch:before { content: "\f101"; }
-.flaticon-city:before { content: "\f102"; }
+    .flaticon-data:before { content: "\f100"; }
+.flaticon-idea:before { content: "\f101"; }
+.flaticon-idea-1:before { content: "\f102"; }
+.flaticon-design:before { content: "\f103"; }
     
-    $font-Flaticon-skyline: "\f100";
-    $font-Flaticon-sketch: "\f101";
-    $font-Flaticon-city: "\f102";
+    $font-Flaticon-data: "\f100";
+    $font-Flaticon-idea: "\f101";
+    $font-Flaticon-idea-1: "\f102";
+    $font-Flaticon-design: "\f103";
