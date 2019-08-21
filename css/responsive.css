@@ -157,7 +157,16 @@
         display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
-    }
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex {
+		padding-right: 0px;
+		display: block;
+		width: 100%;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
+	}
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
 		line-height: 40px;
 	}
@@ -257,6 +266,15 @@
 	.home_banner_area .banner_inner .banner_content {
 		margin-top: 0px;
 	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex {
+		padding-right: 0px;
+		display: block;
+		width: 100%;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
+	}
 	/* Blog Page Area css
 	============================================================================================ */
     .blog_banner .banner_inner .blog_b_text h2 {
@@ -314,6 +332,15 @@
 	}
 }
 @media (max-width:600px){
+	.home_banner_area .banner_inner .banner_content .media .d-flex {
+		padding-right: 0px;
+		display: block;
+		width: 100%;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
+	}
 	
 }
 @media (max-width:575px){
@@ -327,6 +354,15 @@
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content h2 {
 		font-size: 28px;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex {
+		padding-right: 0px;
+		display: block;
+		width: 100%;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
 	}
 	.home_banner_area {
 		min-height: 570px;
@@ -424,10 +460,78 @@
 	.banner_content .white_btn {
 		display: block;
 	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex {
+		padding-right: 0px;
+		display: block;
+		width: 100%;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
+	}
 	/* End Home Banner Area css
 	============================================================================================ */
 	.banner_area .banner_inner .banner_content h2 {
 		font-size: 32px;
+	}
+	/* Blog Page Area css
+	============================================================================================ */
+	.comments-area .thumb {
+		margin-right: 10px;
+	}
+	/* End Blog Page Area css
+	============================================================================================ */
+	.tabs_inner .tab-content .tab-pane .list::before {
+		display: none;
+	}
+	.tabs_inner .tab-content .tab-pane .list li .media .d-flex {
+		padding-right: 0px;
+		padding-bottom: 18px;
+	}
+	.tabs_inner .tab-content .tab-pane .list li .media {
+		display: block;
+	}
+	.tabs_inner .tab-content .tab-pane .list li span {
+		display: none;
+	}
+	.tabs_inner .nav.nav-tabs {
+		margin-bottom: 0px;
+	}
+	.isotope_fillter .gallery_filter li {
+		margin-right: 17px;
+	}
+}
+@media (max-width:320px){
+	/* Main Menu Area css
+	============================================================================================ */
+	.header_area .navbar-collapse{
+		max-height: 250px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	
+	/* Home Banner Area css
+	============================================================================================ */
+    .home_banner_area .banner_inner .banner_content {
+		padding: 10px 0px;
+		margin-top: 0px;
+	}
+	.banner_content .white_btn {
+		display: block;
+	}
+	.home_banner_area .banner_inner .banner_content  .media .d-flex {
+		padding-right: 0px;
+		display: block;
+		width: 100%;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+		width: 100%;
+		height: 100%;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.home_banner_area .banner_inner .banner_content h3 {
+		font-size: 30px;
 	}
 	/* Blog Page Area css
 	============================================================================================ */
